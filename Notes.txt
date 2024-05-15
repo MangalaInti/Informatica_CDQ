@@ -1,0 +1,22 @@
+--DQ Dimensions
+ 1. Accuracy : It is one the dimension in DQ, It is measured how well does a piece of information reflect reality.
+           e.g - For example, a customer's street address is accurate, but the postal code doesn't match, then the data lacks accuracy
+                Data entry errors: Mistakes made during the process of entering data into a system
+               Outdated information: Data that is no longer valid or relevant due to changes over time 
+
+2. Completeness : It is a dimension in DQ, it measures wheather the dataset contains all necessary information.
+         For example, a customer's first and last name are mandatory, but middle name is optional. A record can be considered complete even if a middle name is not 
+         available. 
+ 
+3. Consistency : Does the information stored in one place match relevant data stored else where
+                e.g Data consistency is maintained across master and child tables
+
+4. Timeliness : Is your information available when users need it e.g its mostly for real time data2.
+
+5. Validity : Is information in specific format  e.g Date formats
+
+6. Uniqueness : Is this the only instance in which information appears in the database. e.g Making sure data is unique, for this we use dedup
+
+
+--Rules Specification: Go to IDQ service select
+
